@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    color: white;
+    background-image: url("./ucla-backg.png");
+    background-position: center;
+}
+
+header h1{
+    padding: 1rem 0 0 2rem;
+}
+
+header nav ul{
+    display: flex;
+    min-width: 300px;
+}
+
+header nav ul li{
+    list-style-type: none;
+    padding: 2rem 2rem 0 0;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.wrapper {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 3px;
+}
+
+.about-me {
+    grid-column: span 3;
+    font-size: 20px;
+    text-align: right;
+    padding: 1rem;
+    position: relative;
+    top: -30px;
+}
+
+.about-me-content {
+    grid-column: span 9;
+    text-overflow: clip;
+}
+
+.work {
+    grid-column: span 3;
+    font-size: 20px;
+    text-align: right;
+    padding: 1rem;
+    position: relative;
+    top: -30px;
+}
+
+.work-content {
+    grid-column: span 9;
+}
+
+.card {
+    grid-column: span 4.5;
+}
+
+.small-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-card img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    border: 5px solid white;
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    border: 5px solid white;
+}
+
+.contact {
+    grid-column: span 3;
+    font-size: 20px;
+    text-align: right;
+    padding: 1rem;
+    position: relative;
+    top: -30px;
+}
+
+.contact-content {
+    grid-column: span 9;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3{
+    text-decoration: underline;
+    color: white;
+}
+
+h1{
+    font-size: 20px;
+    padding: 0.5rem;
+    color: white;
+}
+
+.vl {
+    border-right: 3px solid white;
+    height: 50px;
+    position: relative;
+    top: -50px;
+  }
+
+#v11 {
+    height: 100px;
+}
+
+#v12 {
+    height: 300px;
+}
+
+#v13 {
+    height: 75px;
+}
+
+p{
+    color: white;
+}
+
